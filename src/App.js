@@ -252,7 +252,7 @@ class App extends Component {
             <svg class="right-square team" viewBox="0 0 280 655" xmlns="https://www.w3.org/2000/svg">
                 <rect  x = "0" y = "32" width = "1616" height = "1616" rx="48" ry="48" fill="#ffc107" transform = "rotate(-45 310 100)"/>
             </svg>
-            <svg class="right-square team small-view" viewBox="0 0 280 655" xmlns="httpss://www.w3.org/2000/svg">
+            <svg class="right-square team small-view" viewBox="0 0 280 655" xmlns="https://www.w3.org/2000/svg">
                 <rect  x = "0" y = "32" width = "1616" height = "1616" rx="48" ry="48" fill="#fa2851" transform = "rotate(-45 310 100)"/>
             </svg>
         </section>
@@ -519,18 +519,18 @@ class App extends Component {
   handleSubmit(e) {
     e.preventDefault();
 
-    axios({
-      method: "POST", 
-      url:"https://localhost:3002/send", 
-      data:  this.state
-    }).then((response)=>{
-      if (response.data.status === 'success') {
-        alert("Message Sent."); 
-        this.resetForm()
-      } else if(response.data.status === 'fail') {
-        alert("Message failed to send.")
-      }
-    })
+    // axios({
+    //   method: "POST", 
+    //   url:"https://localhost:3002/send", 
+    //   data:  this.state
+    // }).then((response)=>{
+    //   if (response.data.status === 'success') {
+    //     alert("Message Sent."); 
+    //     this.resetForm()
+    //   } else if(response.data.status === 'fail') {
+    //     alert("Message failed to send.")
+    //   }
+    // })
   }
 }
 
