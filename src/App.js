@@ -176,11 +176,11 @@ class App extends Component {
                 </div>
             </div>
 
-            <svg class="yellow-square" viewBox="0 0 200 655" xmlns="http://www.w3.org/2000/svg">
+            <svg class="yellow-square" viewBox="0 0 200 655" xmlns="https://www.w3.org/2000/svg">
                 <rect  x = "0" y = "32" width = "1616" height = "1616" rx="28" ry="28" fill="#EED7C5" transform = "rotate(-45 200 100)"/>
             </svg>
 
-            <svg class="left-square small-view" viewBox="0 0 310 655" xmlns="http://www.w3.org/2000/svg">
+            <svg class="left-square small-view" viewBox="0 0 310 655" xmlns="https://www.w3.org/2000/svg">
                 <rect  x = "0" y = "32" width = "1616" height = "1616" rx="48" ry="48" fill="#C89F9C" transform = "rotate(135 100 245)"/>
             </svg>
 
@@ -206,14 +206,14 @@ class App extends Component {
                     </div>
 
                     <div class="row mt-90">
-                        <iframe width="870" height="560" src="https://youtube.com/embed/S-ByBylsNis" title="Introductory Video"></iframe>
+                        <iframe width="870" height="560" src="httpss://youtube.com/embed/S-ByBylsNis" title="Introductory Video"></iframe>
                     </div>
                 </div>
         </section>
 
         <section id="stats" class="stats">
 
-            <svg class="left-square stats" viewBox="0 0 310 655" xmlns="http://www.w3.org/2000/svg">
+            <svg class="left-square stats" viewBox="0 0 310 655" xmlns="https://www.w3.org/2000/svg">
                 <rect  x = "0" y = "32" width = "1616" height = "1616" rx="48" ry="48" fill="#C89F9C" transform = "rotate(135 100 245)" />
             </svg>
 
@@ -257,10 +257,10 @@ class App extends Component {
                 </div>
             </div>
 
-            <svg class="right-square team" viewBox="0 0 280 655" xmlns="http://www.w3.org/2000/svg">
+            <svg class="right-square team" viewBox="0 0 280 655" xmlns="httpss://www.w3.org/2000/svg">
                 <rect  x = "0" y = "32" width = "1616" height = "1616" rx="48" ry="48" fill="#ffc107" transform = "rotate(-45 310 100)"/>
             </svg>
-            <svg class="right-square team small-view" viewBox="0 0 280 655" xmlns="http://www.w3.org/2000/svg">
+            <svg class="right-square team small-view" viewBox="0 0 280 655" xmlns="httpss://www.w3.org/2000/svg">
                 <rect  x = "0" y = "32" width = "1616" height = "1616" rx="48" ry="48" fill="#fa2851" transform = "rotate(-45 310 100)"/>
             </svg>
         </section>
@@ -268,14 +268,14 @@ class App extends Component {
         <section id="design" class="design">
 
             <div class="col-lg-6 offset-lg-5 col-md-6 offset-md-4 col-sm-12 text-left p-0">
-                <iframe width="870" height="500" src="https://youtube.com/embed/2GUZYZa7Xac" title="Christian Centering Meditation"></iframe>
+                <iframe width="870" height="500" src="httpss://youtube.com/embed/2GUZYZa7Xac" title="Christian Centering Meditation"></iframe>
             </div>
 
-            <svg class="left-square design" viewBox="0 0 310 655" xmlns="http://www.w3.org/2000/svg">
+            <svg class="left-square design" viewBox="0 0 310 655" xmlns="httpss://www.w3.org/2000/svg">
                 <rect  x = "0" y = "32" width = "1616" height = "1616" rx="48" ry="48" fill="#000" transform = "rotate(135 100 245)"/>
             </svg>
 
-            <svg class="right-square small-view" viewBox="0 0 312 600" xmlns="http://www.w3.org/2000/svg">
+            <svg class="right-square small-view" viewBox="0 0 312 600" xmlns="httpss://www.w3.org/2000/svg">
                 <rect  x = "0" y = "32" width = "1616" height = "1616" rx="48" ry="48" fill="#ffc107" transform = "rotate(-45 310 100)"/>
             </svg>
 
@@ -340,11 +340,11 @@ class App extends Component {
                 <div class="row"></div>
             </div>
 
-            <svg class="right-square test" viewBox="0 0 312 600" xmlns="http://www.w3.org/2000/svg">
+            <svg class="right-square test" viewBox="0 0 312 600" xmlns="https://www.w3.org/2000/svg">
                 <rect  x = "0" y = "32" width = "1616" height = "1616" rx="48" ry="48" fill="#fa2851" transform = "rotate(-45 310 100)"/>
             </svg>
 
-            <svg class="left-square gallery small-view" viewBox="0 0 310 655" xmlns="http://www.w3.org/2000/svg">
+            <svg class="left-square gallery small-view" viewBox="0 0 310 655" xmlns="https://www.w3.org/2000/svg">
                 <rect  x = "0" y = "32" width = "1616" height = "1616" rx="48" ry="48" fill="#fa2851" transform = "rotate(135 100 245)"/>
             </svg>
 
@@ -414,11 +414,11 @@ class App extends Component {
                     </div>
             </div>
 
-            <svg class="left-square blog" viewBox="0 0 310 655" xmlns="http://www.w3.org/2000/svg">
+            <svg class="left-square blog" viewBox="0 0 310 655" xmlns="https://www.w3.org/2000/svg">
                 <rect  x = "0" y = "32" width = "1616" height = "1616" rx="48" ry="48" fill="#ffc107" transform = "rotate(135 100 245)"/>
             </svg>
 
-            <svg class="right-square small-blog small-view" viewBox="0 0 312 600" xmlns="http://www.w3.org/2000/svg">
+            <svg class="right-square small-blog small-view" viewBox="0 0 312 600" xmlns="https://www.w3.org/2000/svg">
                 <rect  x = "0" y = "32" width = "1616" height = "1616" rx="48" ry="48" fill="#ffc107" transform = "rotate(-45 310 100)"/>
             </svg>
 
@@ -505,7 +505,7 @@ class App extends Component {
                     </div>
                 </div>
             </div>
-            <svg class="right-square contact-square" viewBox="0 0 150 300" xmlns="http://www.w3.org/2000/svg">
+            <svg class="right-square contact-square" viewBox="0 0 150 300" xmlns="https://www.w3.org/2000/svg">
                 <rect  x = "0" y = "32" width = "1616" height = "1616" rx="18" ry="18" fill="#000" transform = "rotate(-45 310 100)"/>
             </svg>
         </section>
@@ -529,7 +529,7 @@ class App extends Component {
 
     axios({
       method: "POST", 
-      url:"http://localhost:3002/send", 
+      url:"https://localhost:3002/send", 
       data:  this.state
     }).then((response)=>{
       if (response.data.status === 'success') {
