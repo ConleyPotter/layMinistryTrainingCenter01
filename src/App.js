@@ -119,10 +119,13 @@ class App extends Component {
                                 <a class="nav-link scroll" href="#feature">About</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link scroll" href="#gallery">Work</a>
+                                <a class="nav-link scroll" href="#staff">Staff</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link scroll" href="#testimonial">Clients</a>
+                                <a class="nav-link scroll" href="#workshops">Workshops</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link scroll" href="#testimonials">Testimonials</a>
                             </li>
                             <li class="nav-item">
                                 <a href="#contact" class="btn btn-slider white-btn rounded-pill">Contact</a>
@@ -498,14 +501,9 @@ class App extends Component {
         {/* <!--        FOOTER SECTION ROW--> */}
                 <div class="row footer">
                     <div class="col-12 col-md-5">
-                        <ul class="footer_ul mb-50">
-                            <a href="mailto:ron.serpliss@layministrytrainingcenter.com"><li class="footer_list"><i class="las la-envelope gmail"></i></li></a>
-                        </ul>
                         <p class="info footer_text ml-3"><i class="fas fa-copyright"></i>2020 MegaOne. Made with love by themesindustry</p>
-
                     </div>
                 </div>
-
             </div>
             <svg class="right-square contact-square" viewBox="0 0 150 300" xmlns="http://www.w3.org/2000/svg">
                 <rect  x = "0" y = "32" width = "1616" height = "1616" rx="18" ry="18" fill="#000" transform = "rotate(-45 310 100)"/>
