@@ -499,12 +499,7 @@ class App extends Component {
                 <div class="row footer">
                     <div class="col-12 col-md-5">
                         <ul class="footer_ul mb-50">
-                            <li class="footer_list"><i class="lab la-facebook-f fb"></i></li>
-                            <li class="footer_list"><i class="lab la-twitter twt"></i></li>
-                            <li class="footer_list"><i class="lab la-google-plus gogle"></i></li>
-                            <li class="footer_list"><i class="lab la-linkedin-in link"></i></li>
-                            <li class="footer_list"><i class="lab la-instagram inst"></i></li>
-                            <li class="footer_list"><i class="las la-envelope gmail"></i></li>
+                            <a href="mailto:ron.serpliss@layministrytrainingcenter.com"><li class="footer_list"><i class="las la-envelope gmail"></i></li></a>
                         </ul>
                         <p class="info footer_text ml-3"><i class="fas fa-copyright"></i>2020 MegaOne. Made with love by themesindustry</p>
 
