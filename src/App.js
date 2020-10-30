@@ -72,7 +72,7 @@ class App extends Component {
                                 <ul id="primary" class="navbar-nav text-center">
 
                                     <li class="nav-item">
-                                        <a class="nav-link" href="#">home</a>
+                                        <a class="nav-link" href="#home">home</a>
                                     </li>
                                     <li class="nav-item">
                                         <a class="nav-link" href="#feature">about</a>
