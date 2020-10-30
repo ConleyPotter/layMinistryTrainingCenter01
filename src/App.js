@@ -197,9 +197,6 @@ class App extends Component {
                                         Center has been founded by Doug Smith and Ron Serpliss to train lay ministers to
                                         assist their clergy in ministering to the hurt, sick and troubled members of their
                                         parishes.</p>
-                                        {/* Here I want to make a pop-up appear when the button below is pressed, 
-                                        Maybe explaining the mission statement further */}
-                                    <a href="#" class="btn btn-slider pink-btn rounded-pill">Learn More</a>
                                 </div>
                             </div>
                         </div>
