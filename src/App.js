@@ -134,11 +134,6 @@ class App extends Component {
                     </nav>
 
                     <div class="side-footer w-100">
-                        <div class="banner-icons">
-                            <a href="#"><i class="lab la-facebook-f icons"></i></a>
-                            <a href="#"><i class="lab la-twitter icons"></i></a>
-                            <a href="#"><i class="lab la-instagram icons"></i></a>
-                        </div>
                         <p>&copy; 2020 MegaOne. Made With Love by Themesindustry.</p>
                     </div>
                 </div>
