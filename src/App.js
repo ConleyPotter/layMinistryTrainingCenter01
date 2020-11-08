@@ -422,37 +422,6 @@ class App extends Component {
                     </div>
                 </div>
                 <div class="row">
-                    <div class="col-12 col-md-7">
-                        <form class="contact-form" id="contact-form-data">
-                            <div class="row mt-5">
-                                <div class="col-sm-12" id="result"></div>
-                            </div>
-                                <div class="row">
-                                    <div class="col-12 col-md-5">
-                                    <div class="form-group">
-                                        <input class="form-control" type="text" placeholder="Your Name" required  id="candidate_name" name="userName" />
-                                    </div>
-
-                                    <div class="form-group">
-                                        <input class="form-control" type="email" placeholder="Email Address*" required  id="user_email" name="userEmail" aria-describedby="emailHelp" />
-                                    </div>
-
-                                    <div class="form-group ">
-                                        <input class="form-control" type="text" placeholder="Subject" id="user_subject" name="userSubject" />
-                                    </div>
-                                    </div>
-
-                                    <div class="col-12 col-md-7">
-                                        <div class="form-group ">
-                                            <textarea class="form-control" placeholder="Your Message" required rows="7" id="user_message" name="userMessage"></textarea>
-                                        </div>
-                                    </div>
-                                </div>
-
-                            <button type="button" class="btn btn-slider pink-btn rounded-pill w-100 contact_btn" id="submit_btn"><i class="fa fa-spinner fa-spin mr-2 d-none" aria-hidden="true"></i> <b>Send Message</b></button>
-                        </form>
-                    </div>
-
                     <div class="col-12 col-md-5 mt-5">
                         <div class="address-part ml-3">
                             <div class="address d-flex mb-4">
@@ -474,15 +443,6 @@ class App extends Component {
                                         <p>ron.serpliss@layministrytrainingcenter.com</p>
                                     </div>
                                 </div>
-                            </div>
-                        </div>
-
-                        <div class="plant1">
-                            <div class="plant-contact">
-                                <img src="../assets/img/contact-plant.png" alt="img" />
-                            </div>
-                            <div class="shadow-contact">
-                                <img src="../assets/img/shadow-contact.png" alt="img" />
                             </div>
                         </div>
                     </div>
