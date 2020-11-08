@@ -1159,8 +1159,9 @@ p.testimonial {
 .blog-text{
     padding: 20px 32px;
 }
-
-
+.owl-nav .owl-next span[aria-label="Next"] {
+    right: -6%;
+}
 svg.blog{
     position: absolute;
     left: 0;

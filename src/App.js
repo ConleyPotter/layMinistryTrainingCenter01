@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faMapMarkedAlt, faPaperPlane } from '@fortawesome/free-solid-svg-icons'
-import axios from 'axios'
 
 class App extends Component {
     constructor(props) {
@@ -187,7 +186,7 @@ class App extends Component {
                         <div class="col-lg-6 offset-lg-3 col-md-8 offset-md-2 col-sm-12 text-center">
                             <div class="text">
                                 <div class="home-text text-black">
-                                    <h1 class="main-heading mb-4">We are Lay Ministry Training Center</h1>
+                                    <h1 class="main-heading mb-4">Lay Ministry Training Center Mission Statement</h1>
                                     <p class="sub-heading mb-4">The Lay Ministry Training
                                         Center has been founded by Doug Smith and Ron Serpliss to train lay ministers to
                                         assist their clergy in ministering to the hurt, sick and troubled members of their
@@ -198,7 +197,7 @@ class App extends Component {
                     </div>
 
                     <div class="row mt-90">
-                        <iframe width="870" height="560" src="https://youtube.com/embed/S-ByBylsNis" title="Introductory Video"></iframe>
+                        <iframe width="870" height="500" src="https://youtube.com/embed/2GUZYZa7Xac?rel=0" title="Introduction Video"></iframe>
                     </div>
                 </div>
         </section>
@@ -232,7 +231,7 @@ class App extends Component {
                                         <img src="../assets/img/Doug.jpg" alt="img" />
                                     </div>
                                     <h3 class="name mb-0 text-center">Doug Smith</h3>
-                                    <a href="../assets/img/dougs-bio.png" class="cbp-lightbox" data-cbp-lightbox="bios">Click here for Doug's bio.</a>
+                                    <a href="../assets/img/dougs-bio.png" class="cbp-lightbox">Click here for Doug's bio.</a>
                                 </div>
                             </div>
                             <div class="item">
@@ -241,7 +240,7 @@ class App extends Component {
                                         <img src="../assets/img/Ron.jpg" alt="img" />
                                     </div>
                                     <h3 class="name mb-0 text-center">Ron Serpliss</h3>
-                                    <a href="../assets/img/rons-bio.png" class="cbp-lightbox" data-cbp-lightbox="bios">Click here for Ron's bio.</a>
+                                    <a href="../assets/img/rons-bio.png" class="cbp-lightbox">Click here for Ron's bio.</a>
                                 </div>
                             </div>
                         </div>
@@ -260,11 +259,11 @@ class App extends Component {
         <section id="design" class="design">
 
             <div class="col-lg-6 offset-lg-5 col-md-6 offset-md-4 col-sm-12 text-left p-0">
-                <iframe width="870" height="500" src="https://youtube.com/embed/2GUZYZa7Xac" title="Christian Centering Meditation"></iframe>
+                <iframe width="870" height="560" src="https://youtube.com/embed/S-ByBylsNis?rel=0" title="Christian Centering Meditation" rel="0"></iframe>
             </div>
 
-            <svg class="left-square design" viewBox="0 0 310 655" xmlns="s://www.w3.org/2000/svg">
-                <rect  x = "0" y = "32" width = "1616" height = "1616" rx="48" ry="48" fill="#000" transform = "rotate(135 100 245)"/>
+            <svg class="left-square design" viewBox="0 0 312 680" xmlns="s://www.w3.org/2000/svg">
+                <rect  x = "0" y = "32" width = "1580" height = "1580" rx="48" ry="48" fill="#000" transform = "rotate(135 100 245)"/>
             </svg>
 
             <svg class="right-square small-view" viewBox="0 0 312 600" xmlns="https://www.w3.org/2000/svg">
@@ -287,7 +286,6 @@ class App extends Component {
                         <div class="col-md-12 pt-5">
                             <div id="js-filters-mosaic" class="cbp-l-filters-button wow fadeInUp" data-wow-delay="350ms">
                                 <div data-filter=".current" class="cbp-filter-item">CURRENT OFFERINGS</div>
-                                <div data-filter=".future" class="cbp-filter-item">FUTURE OFFERINGS</div>
                             </div>
 
                             <div id="js-grid-mosaic" class="cbp cbp-l-grid-mosaic">
@@ -304,16 +302,15 @@ class App extends Component {
                                         </div>
                                     </a>
                                 </div>
-
-                                <div class="cbp-item future">
-                                    <a href="../assets/img/workshop-2-description.png" class="cbp-caption cbp-lightbox">
+                                <div class="cbp-item current">
+                                    <a href="../assets/img/workshop-3-description.png" class="cbp-caption cbp-lightbox">
                                         <div class="cbp-caption-defaultWrap">
-                                            <img src="../assets/img/workshop-2.jpg" alt="img" />
+                                            <img src="../assets/img/workshop-3.jpg" alt="img" />
                                         </div>
                                         <div class="cbp-caption-activeWrap portfolio-hover-effect d-flex align-items-end">
                                             <div class="hover-text">
-                                                <h4 class="p-hover-title">Future Workshop to be Offered</h4>
-                                                <p class="p-hover-des">“Ministering to People in the Final Phases of Life.” Click to Learn More</p>
+                                                <h4 class="p-hover-title">Workshop #2</h4>
+                                                <p class="p-hover-des">“Ministering to People Who Are in The Final Phases of Life.” Click to learn more.</p>
                                             </div>
                                         </div>
                                     </a>
@@ -332,7 +329,7 @@ class App extends Component {
                 <div class="row"></div>
             </div>
 
-            <svg class="right-square test" viewBox="0 0 312 600" xmlns="https://www.w3.org/2000/svg">
+            <svg class="right-square test" viewBox="0 0 300 580" xmlns="https://www.w3.org/2000/svg">
                 <rect  x = "0" y = "32" width = "1616" height = "1616" rx="48" ry="48" fill="#fa2851" transform = "rotate(-45 310 100)"/>
             </svg>
 
@@ -348,12 +345,13 @@ class App extends Component {
                     <div class="col-lg-6 offset-lg-4 col-md-12 offset-md-0 col-sm-12 text-left p-0">
                         <div class="home-text text-black">
                                 <h1 class="main-heading mt-3 mb-4">Testimonials</h1>
+                                <p class="sub-heading">Navigate to the left or right, using the arrows, to see all testimonials</p>
                             </div>
                     </div>
                 </div>
                     <div class="row mt-40">
                         <div class="col-lg-8 offset-lg-4 col-md-12 offset-md-0 p-0">
-                            <div class="blog-owl owl-carousel owl-theme no-gutters blog-area" id="blog-carousal">
+                            <div class="team-owl owl-carousel owl-theme no-gutters blog-area" id="blog-carousal">
 
                                 <div class="item blog-item">
                                     <p class="testimonial">“Doug Smith has been a speaker at the International Death, Grief and Bereavement Conference that I host on many occasions. His workshops and plenary sessions have always received excellent evaluations from those who have attended. He is not only an excellent presenter, but he is also a gem of a person who cares deeply about others. He has been one of our most sought after speakers at our Conference for many years. He is honest, open, and has excellent material to offer to those who are fortunate to be able to learn from him.”</p>
@@ -425,28 +423,28 @@ class App extends Component {
                 </div>
                 <div class="row">
                     <div class="col-12 col-md-7">
-                        <form class="contact-form" id="contact-form-data" onSubmit={this.handleSubmit.bind(this)} method="POST">
+                        <form class="contact-form" id="contact-form-data">
                             <div class="row mt-5">
                                 <div class="col-sm-12" id="result"></div>
                             </div>
                                 <div class="row">
                                     <div class="col-12 col-md-5">
                                     <div class="form-group">
-                                        <input class="form-control" type="text" placeholder="Your Name" required  id="candidate_name" name="userName" value={this.state.name} onChange={this.onNameChange.bind(this)}/>
+                                        <input class="form-control" type="text" placeholder="Your Name" required  id="candidate_name" name="userName" />
                                     </div>
 
                                     <div class="form-group">
-                                        <input class="form-control" type="email" placeholder="Email Address*" required  id="user_email" name="userEmail" aria-describedby="emailHelp" value={this.state.email} onChange={this.onEmailChange.bind(this)} />
+                                        <input class="form-control" type="email" placeholder="Email Address*" required  id="user_email" name="userEmail" aria-describedby="emailHelp" />
                                     </div>
 
                                     <div class="form-group ">
-                                        <input class="form-control" type="text" placeholder="Subject" id="user_subject" name="userSubject" value={this.state.subject} onChange={this.onNameChange.bind(this)}/>
+                                        <input class="form-control" type="text" placeholder="Subject" id="user_subject" name="userSubject" />
                                     </div>
                                     </div>
 
                                     <div class="col-12 col-md-7">
                                         <div class="form-group ">
-                                            <textarea class="form-control" placeholder="Your Message" required rows="7" id="user_message" name="userMessage" value={this.state.message} onChange={this.onMessageChange.bind(this)}></textarea>
+                                            <textarea class="form-control" placeholder="Your Message" required rows="7" id="user_message" name="userMessage"></textarea>
                                         </div>
                                     </div>
                                 </div>
@@ -463,7 +461,7 @@ class App extends Component {
                                         <FontAwesomeIcon icon={faMapMarkedAlt} />
                                     </div>
                                     <div class="col-lg-12 offset-lg-2" id="address">
-                                        <p>12 Hidden Treasure Dr<br />Palm Coast 32137</p>
+                                        <p>765 Rye Wilderness Trail <br/>Parrish, FL 34219</p>
                                     </div>
                                 </div>
                             </div>
@@ -503,34 +501,6 @@ class App extends Component {
         </section>
       </div>
     );
-  }
-  onNameChange(event) {
-    this.setState({name: event.target.value})
-  }
-
-  onEmailChange(event) {
-    this.setState({email: event.target.value})
-  }
-
-  onMessageChange(event) {
-    this.setState({message: event.target.value})
-  }
-
-  handleSubmit(e) {
-    e.preventDefault();
-
-    // axios({
-    //   method: "POST", 
-    //   url:"https://localhost:3002/send", 
-    //   data:  this.state
-    // }).then((response)=>{
-    //   if (response.data.status === 'success') {
-    //     alert("Message Sent."); 
-    //     this.resetForm()
-    //   } else if(response.data.status === 'fail') {
-    //     alert("Message failed to send.")
-    //   }
-    // })
   }
 }
 

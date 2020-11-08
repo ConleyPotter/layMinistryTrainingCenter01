@@ -70,9 +70,10 @@ $(document).on('click', '.scroll-top-arrow', function () {
 
 //*******************TEAM OWL CAROUSAL*************************
 $('#team-carousal').owlCarousel({
-    loop:true,
+    loop:false,
     margin:0,
-    nav:true,
+    nav:false,
+    navText:"",
     dots:false,
     responsive:{
         0:{
@@ -142,10 +143,11 @@ $('.sponser-tags').owlCarousel({
 $('#blog-carousal').owlCarousel({
     items:1,
     loop:true,
-    autoplay:true,
+    autoplay:false,
     center:false,
-    margin:30,
-    nav:false,
+    margin:20,
+    nav:true,
+    navElement:"button",
     dots:false,
     responsive:{
         0:{
