@@ -227,18 +227,14 @@ class App extends Component {
                         <div id="team-carousal" class="owl-carousel owl-theme team-owl mt-100 text-center">
                             <div class="item">
                                 <div class="team-tittle text-center mt-3 mb-3">
-                                    <div class="name-img">
-                                        <img src="../assets/img/Doug.jpg" alt="img" />
-                                    </div>
+                                    <img src="../assets/img/Doug.jpg" alt="img" style={{height: 350 + "px"}}/>
                                     <h3 class="name mb-0 text-center">Doug Smith</h3>
                                     <a href="../assets/img/dougs-bio.png" class="cbp-lightbox">Click here for Doug's bio.</a>
                                 </div>
                             </div>
                             <div class="item">
                                 <div class="team-tittle text-center mt-3 mb-3">
-                                    <div class="name-img">
-                                        <img src="../assets/img/Ron.jpg" alt="img" />
-                                    </div>
+                                    <img src="../assets/img/Ron.jpg" alt="img" />
                                     <h3 class="name mb-0 text-center">Ron Serpliss</h3>
                                     <a href="../assets/img/rons-bio.png" class="cbp-lightbox">Click here for Ron's bio.</a>
                                 </div>
