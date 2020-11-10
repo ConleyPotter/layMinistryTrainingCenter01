@@ -148,7 +148,7 @@ class App extends Component {
                         <div class="text d-flex align-items-center">
                             <div class="home-text text-black height1">
                                 <h1 class="main-heading mb-0">Lay Ministry <br />Training Center</h1>
-                                <h4 class="heading mb-3">Principles: Doug Smith & Ron Serpliss</h4>
+                                <h4 class="heading mb-3">Principals: Doug Smith & Ron Serpliss</h4>
                                 <a href="#blog" class="btn btn-slider pink-btn rounded-pill">Our Workshops</a>
                             </div>
                         </div>
@@ -215,7 +215,7 @@ class App extends Component {
                 <div class="row">
                     <div class="col-12 col-md-8 col-lg-6">
                         <div class="team-text text-black">
-                            <h1 class="main-heading mb-3">Our Principles</h1>
+                            <h1 class="main-heading mb-3">Our Principals</h1>
                             
                         </div>
                     </div>
